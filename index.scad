@@ -2,7 +2,7 @@
 // street generator
 
 module Street() {
-        include <jiaxin-ospm_house-0.1/index.scad>
+        include <jiaxinsu2016-ospm_house-0.3/index.scad>
 
         house();
         translate([2,0,0]) house("pitched");
